@@ -29,34 +29,34 @@ class Homepage extends Component {
 
                         <Text style={{padding: 2}}>{"\n"} Schedule:</Text>
                     </Row>
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Monday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Monday</Text>
                     </Row>
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Tuesday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Tuesday</Text>
                     </Row>
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Wednesday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Wednesday</Text>
 
                     </Row>                    
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Thursday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Thursday</Text>
                     </Row> 
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Friday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Friday</Text>
 
                     </Row>                    
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Saturday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Saturday</Text>
                     </Row>          
-                    <Row size={10}>
-                        <Icon name="add-circle" style={{ fontSize: 24 }} onPress={() => console.log("clicking mail")} />
+                    <Row size={10} onPress={() => console.log("clicking Sunday")}>
+                        <Icon name="add-circle" style={{ fontSize: 24 }}/>
                         <Text style={{padding: 2}}> Sunday</Text>
                     </Row>              
                     <Row size={30}></Row>
